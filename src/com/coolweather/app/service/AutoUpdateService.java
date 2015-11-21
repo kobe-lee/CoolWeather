@@ -21,6 +21,7 @@ public class AutoUpdateService extends Service {
 		return null;
 	}
 
+	
 	public int onStartCommand(Intent intent, int flags, int startId) {
 		new Thread(new Runnable() {
 
